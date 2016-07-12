@@ -15,6 +15,17 @@
 		75D27B251D34989600219F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B231D34989600219F24 /* LaunchScreen.storyboard */; };
 		75D27B301D34989600219F24 /* CustomDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B2F1D34989600219F24 /* CustomDatePickerTests.m */; };
 		75D27B3B1D34989600219F24 /* CustomDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B3A1D34989600219F24 /* CustomDatePickerUITests.m */; };
+		75D27B521D3498B600219F24 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B4A1D3498B600219F24 /* FilterView.m */; };
+		75D27B531D3498B600219F24 /* HistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B4C1D3498B600219F24 /* HistoryHeaderView.m */; };
+		75D27B541D3498B600219F24 /* CustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B4F1D3498B600219F24 /* CustomDatePicker.m */; };
+		75D27B551D3498B600219F24 /* UIPickerView+malPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B511D3498B600219F24 /* UIPickerView+malPicker.m */; };
+		75D27B5B1D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B581D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		75D27B5C1D3499E700219F24 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D27B5A1D3499E700219F24 /* UIView+SDAutoLayout.m */; };
+		75D27B5F1D349CDC00219F24 /* unselect_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B5D1D349CDC00219F24 /* unselect_box@2x.png */; };
+		75D27B601D349CDC00219F24 /* unselect_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B5E1D349CDC00219F24 /* unselect_box@3x.png */; };
+		75D27B631D349CE500219F24 /* select_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B611D349CE500219F24 /* select_box@2x.png */; };
+		75D27B641D349CE500219F24 /* select_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B621D349CE500219F24 /* select_box@3x.png */; };
+		75D27B661D34B60900219F24 /* IMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D27B651D34B60900219F24 /* IMG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,23 @@
 		75D27B361D34989600219F24 /* CustomDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D27B3A1D34989600219F24 /* CustomDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerUITests.m; sourceTree = "<group>"; };
 		75D27B3C1D34989600219F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D27B491D3498B600219F24 /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		75D27B4A1D3498B600219F24 /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		75D27B4B1D3498B600219F24 /* HistoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryHeaderView.h; sourceTree = "<group>"; };
+		75D27B4C1D3498B600219F24 /* HistoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryHeaderView.m; sourceTree = "<group>"; };
+		75D27B4E1D3498B600219F24 /* CustomDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePicker.h; sourceTree = "<group>"; };
+		75D27B4F1D3498B600219F24 /* CustomDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePicker.m; sourceTree = "<group>"; };
+		75D27B501D3498B600219F24 /* UIPickerView+malPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+malPicker.h"; sourceTree = "<group>"; };
+		75D27B511D3498B600219F24 /* UIPickerView+malPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+malPicker.m"; sourceTree = "<group>"; };
+		75D27B571D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		75D27B581D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		75D27B591D3499E700219F24 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		75D27B5A1D3499E700219F24 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		75D27B5D1D349CDC00219F24 /* unselect_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselect_box@2x.png"; sourceTree = "<group>"; };
+		75D27B5E1D349CDC00219F24 /* unselect_box@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselect_box@3x.png"; sourceTree = "<group>"; };
+		75D27B611D349CE500219F24 /* select_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select_box@2x.png"; sourceTree = "<group>"; };
+		75D27B621D349CE500219F24 /* select_box@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select_box@3x.png"; sourceTree = "<group>"; };
+		75D27B651D34B60900219F24 /* IMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +129,12 @@
 		75D27B141D34989600219F24 /* CustomDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				75D27B561D3499E700219F24 /* SDAutoLayout */,
+				75D27B481D3498B600219F24 /* View */,
 				75D27B181D34989600219F24 /* AppDelegate.h */,
 				75D27B191D34989600219F24 /* AppDelegate.m */,
 				75D27B1B1D34989600219F24 /* ViewController.h */,
 				75D27B1C1D34989600219F24 /* ViewController.m */,
-				75D27B1E1D34989600219F24 /* Main.storyboard */,
-				75D27B211D34989600219F24 /* Assets.xcassets */,
-				75D27B231D34989600219F24 /* LaunchScreen.storyboard */,
-				75D27B261D34989600219F24 /* Info.plist */,
 				75D27B151D34989600219F24 /* Supporting Files */,
 			);
 			path = CustomDatePicker;
@@ -117,6 +143,15 @@
 		75D27B151D34989600219F24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75D27B651D34B60900219F24 /* IMG.png */,
+				75D27B611D349CE500219F24 /* select_box@2x.png */,
+				75D27B621D349CE500219F24 /* select_box@3x.png */,
+				75D27B5D1D349CDC00219F24 /* unselect_box@2x.png */,
+				75D27B5E1D349CDC00219F24 /* unselect_box@3x.png */,
+				75D27B1E1D34989600219F24 /* Main.storyboard */,
+				75D27B211D34989600219F24 /* Assets.xcassets */,
+				75D27B231D34989600219F24 /* LaunchScreen.storyboard */,
+				75D27B261D34989600219F24 /* Info.plist */,
 				75D27B161D34989600219F24 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +173,40 @@
 				75D27B3C1D34989600219F24 /* Info.plist */,
 			);
 			path = CustomDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		75D27B481D3498B600219F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75D27B491D3498B600219F24 /* FilterView.h */,
+				75D27B4A1D3498B600219F24 /* FilterView.m */,
+				75D27B4B1D3498B600219F24 /* HistoryHeaderView.h */,
+				75D27B4C1D3498B600219F24 /* HistoryHeaderView.m */,
+				75D27B4D1D3498B600219F24 /* Picker */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75D27B4D1D3498B600219F24 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				75D27B4E1D3498B600219F24 /* CustomDatePicker.h */,
+				75D27B4F1D3498B600219F24 /* CustomDatePicker.m */,
+				75D27B501D3498B600219F24 /* UIPickerView+malPicker.h */,
+				75D27B511D3498B600219F24 /* UIPickerView+malPicker.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		75D27B561D3499E700219F24 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				75D27B571D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.h */,
+				75D27B581D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.m */,
+				75D27B591D3499E700219F24 /* UIView+SDAutoLayout.h */,
+				75D27B5A1D3499E700219F24 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +312,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D27B641D349CE500219F24 /* select_box@3x.png in Resources */,
+				75D27B631D349CE500219F24 /* select_box@2x.png in Resources */,
 				75D27B251D34989600219F24 /* LaunchScreen.storyboard in Resources */,
 				75D27B221D34989600219F24 /* Assets.xcassets in Resources */,
+				75D27B601D349CDC00219F24 /* unselect_box@3x.png in Resources */,
 				75D27B201D34989600219F24 /* Main.storyboard in Resources */,
+				75D27B5F1D349CDC00219F24 /* unselect_box@2x.png in Resources */,
+				75D27B661D34B60900219F24 /* IMG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D27B521D3498B600219F24 /* FilterView.m in Sources */,
 				75D27B1D1D34989600219F24 /* ViewController.m in Sources */,
+				75D27B5B1D3499E700219F24 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				75D27B541D3498B600219F24 /* CustomDatePicker.m in Sources */,
 				75D27B1A1D34989600219F24 /* AppDelegate.m in Sources */,
+				75D27B5C1D3499E700219F24 /* UIView+SDAutoLayout.m in Sources */,
 				75D27B171D34989600219F24 /* main.m in Sources */,
+				75D27B531D3498B600219F24 /* HistoryHeaderView.m in Sources */,
+				75D27B551D3498B600219F24 /* UIPickerView+malPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +578,7 @@
 				75D27B411D34989600219F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D27B421D34989600219F24 /* Build configuration list for PBXNativeTarget "CustomDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +587,7 @@
 				75D27B441D34989600219F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D27B451D34989600219F24 /* Build configuration list for PBXNativeTarget "CustomDatePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +596,7 @@
 				75D27B471D34989600219F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
